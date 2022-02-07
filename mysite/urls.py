@@ -20,5 +20,5 @@ from mysite import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.show_phones)
+    path('', views.show_page)
 ]
